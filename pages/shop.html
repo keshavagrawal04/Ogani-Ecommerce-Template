@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogani | Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body style="box-sizing: border-box;font-family: 'Poppins';">
+
+    <!-- Header -->
+    <div class="container p-2 d-none d-md-none d-lg-block" style="background: #f5f5f5;">
+        <div class="row d-flex ps-md-0 ps-lg-5">
+            <div class="col-2 col-lg-3 border-end">
+                <span>
+                    <i class='bx bxs-envelope'></i>
+                    hello@colorlib.com
+                </span>
+            </div>
+            <div class="col-6 col-lg-4">
+                <span>
+                    Free Shipping for all Order of $99
+                </span>
+            </div>
+            <div class="col-1 col-lg-1 border-end">
+                <span class="d-flex justify-content-evenly align-items-center mt-1">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-pinterest-alt'></i>
+                </span>
+            </div>
+            <div class="col-1 col-lg-2 border-end position-relative">
+                <span id="language">
+                    <img src="../images/language.png" alt="language">
+                    English
+                </span>
+                <div class="position-absolute top-100 bg-black text-white w-75 d-flex align-items-center flex-column d-none"
+                    id="languageDiv">
+                    <p>English</p>
+                    <p>Spanish</p>
+                </div>
+            </div>
+            <div class="col-1 col-lg-2">
+                <span class="btn border-0">
+                    <i class='bx bxs-user'></i>
+                    Login
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+
+    <!-- Navbar Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-3 d-flex justify-content-start btn dropdown-toggle rounded-0 text-white px-4">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+
+            <button class="navbar-toggler d-lg-none d-md-block ms-auto col-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#sideNavbar" aria-controls="sideNavbar" aria-label="Toggle navigation">
+                <i class='bx bx-menu fs-1 border border-black'></i>
+            </button>
+
+            <div class="col-lg-5 d-lg-flex d-md-none d-none d-sm-none btn dropdown-toggle rounded-0 text-white px-4 d-flex justify-content-start align-items-center
+            gap-5">
+                <a href="../index.html" class="text-decoration-none fw-bold text-black">HOME</a>
+                <a href="./shop.html" class="text-decoration-none fw-bold" style=" color: #7fad39;">SHOP</a>
+                <a href="#" class="text-decoration-none fw-bold text-black">PAGES</a>
+                <a href="./blog.html" class="text-decoration-none fw-bold text-black">BLOG</a>
+                <a href="./contact.html" class="text-decoration-none fw-bold text-black">CONTACT</a>
+            </div>
+
+            <div class="col-lg-4 d-flex flex-row align-items-center justify-content-center gap-4 gap-lg-2 gap-xl-3">
+                <a href="#" class="text-decoration-none text-black">
+                    <i class='bx bxs-heart fs-4 position-relative'>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                            style="font-size: 12px;">
+                            1
+                        </span>
+                    </i>
+                </a>
+                <a href="#" class="text-decoration-none text-black">
+                    <i class='bx bxs-basket position-relative fs-4'>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                            style="font-size: 12px;">
+                            3
+                        </span>
+                    </i>
+                </a>
+                <p class="mt-3">item:<span class="fw-bold">$150.00</span></p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- Navbar Start -->
+
+    <!-- Side Nav -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sideNavbar" aria-labelledby="sideNavbarLabel">
+        <div class="offcanvas-header">
+            <a href="#" class="navbar-brand">
+                <img src="../images/logo.png" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="col d-flex flex-row align-items-center justify-content-start gap-4">
+                <i class='bx bxs-heart fs-4 position-relative'>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                        style="font-size: 12px;">
+                        1
+                    </span>
+                </i>
+                <i class='bx bxs-basket position-relative fs-4'>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                        style="font-size: 12px;">
+                        3
+                    </span>
+                </i>
+                <p class="mt-3">item:<span class="fw-bold">$150.00</span></p>
+            </div>
+            <div class="row d-flex">
+                <div class="col-6 col-lg-1 border-end">
+                    <span id="language">
+                        <img src="../images/language.png" alt="language">
+                        English
+                    </span>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <span>
+                        <i class='bx bxs-user'></i>
+                        Login
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <button class="navbar-toggler d-flex justify-content-center" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#sideContent" aria-controls="sideContent" aria-exended="false"
+                    aria-label="Toggle navigation" style="background-color: #4c4c4c;">
+
+                    <span class="text-white fs-4 p-3 m-2 rounded-1 ms-auto" style="background-color: #222222;">MENU <i
+                            class='bx bx-menu fs-4 text-white'></i></span>
+                </button>
+
+                <div class="collapse
+                    align-items-start" style="background-color: #4c4c4c;" id="sideContent">
+                    <ul class="list-group list-unstyled text-white border- m-2">
+                        <li class="list-group-item border-0" style="background-color: #4c4c4c;">
+                            <a href="../index.html" class="text-decoration-none text-white">HOME</a>
+                        </li>
+                        <li class="list-group-item border-0" style="background-color: #4c4c4c;">
+                            <a href="./shop.html" class="text-decoration-none text-white">SHOP</a>
+                        </li>
+                        <li class="list-group-item border-0" style="background-color: #4c4c4c;">
+                            <a href="#" class="text-decoration-none text-white">PAGES</a>
+                        </li>
+                        <li class="list-group-item border-0" style="background-color: #4c4c4c;">
+                            <a href="./blog.html" class="text-decoration-none text-white">BLOG</a>
+                        </li>
+                        <li class="list-group-item border-0" style="background-color: #4c4c4c;">
+                            <a href="./contact.html" class="text-decoration-none text-white">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col border-end">
+                <span class="d-flex justify-content-start mt-1">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-pinterest-alt'></i>
+                </span>
+            </div>
+            <div class="col border-end">
+                <span>
+                    <i class='bx bxs-envelope'></i>
+                    hello@colorlib.com
+                </span>
+            </div>
+            <div class="col">
+                <span>
+                    Free Shipping for all Order of $99
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Side Nav -->
+
+    <!-- Section 1 Start -->
+    <div class="container">
+        <div class="row d-flex">
+            <!-- (Part - 1) Start -->
+            <div class="col-lg-3 btn dropdown-toggle rounded-0 text-white">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button rounded-0" style="background: #7fad39;color: white;"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class='bx bx-menu fs-2'></i>
+                                All Departments
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse position-absolute"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-white w-100">
+                                <ul class="px-2 fs-5 rounded-0 list-unstyled text-start d-flex flex-column gap-2">
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh Meat</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Vegetables</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fruit & Nut
+                                            Gifts</a></li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fruit
+                                            Barries</a></li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Ocean Foods</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Butter &
+                                            Eggs</a></li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fast Food</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh Onion</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Papaya
+                                            Crisps</a></li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Oatmeal</a>
+                                    </li>
+                                    <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh
+                                            Bananas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- (Part - 1) End -->
+
+            <!-- (Part - 2) Start -->
+            <div class="col-lg-9 col-md">
+                <div class="row ps-4 w-100 mt-2 d-flex align-items-center" style="box-sizing: border-box;">
+                    <div class="col-lg-8 col-md-8 me-0 d-flex align-items-center border pe-0 mb-sm-4">
+                        <label for="field" class="d-none d-lg-block form-label w-50 fw-bold border-end mt-2">
+                            All Categories</label>
+                        <!-- <i class='bx bx-chevron-down ms-lg-0 ms-3'></i> -->
+                        <input type="text" name="field" class="input-group h-100 border-0"
+                            placeholder="What do you need ?" style="outline: none;text-indent: 5px;">
+                        <button class="btn mt-0 me-0 h-100 rounded-0 text-white"
+                            style="background: #7fae42">SEARCH</button>
+                    </div>
+
+                    <div class="col-lg-1 col-3 ms-md-2 col-sm-4 col-md-1 gap-md-1 btn d-flex justify-content-center align-items-center rounded-circle border-0"
+                        style="margin-top: -20px;">
+                        <i class='bx bxs-phone border fs-3 rounded-circle p-2' style="color: #7fae42"></i>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-4 col-8 col-md-2 m-0 p-0">
+                        <div class="row fw-bold mt-2 mt-md-0">
+                            <h6>+65 11.188..888</h6>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 12px;">support 24/7 time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- (Part - 2) End -->
+        </div>
+    </div>
+    <!-- Section 1 End -->
+
+    <!-- Section - 2 Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center p-5 fw-bold text-white"
+                style="background-image: url(../images/breadcrumb.png);background-repeat: no-repeat;">
+                <h1>Organi Shop</h1>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb" class="d-flex justify-content-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-white text-decoration-none fw-bold"
+                                href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active text-white fw-light" aria-current="page">Shop</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Section - 2 End -->
+
+    <!-- Section - 3 Start -->
+    <div class="container">
+        <div class="row d-flex ms-lg-5 ms-md-0 ms-0">
+            <div class="col-lg-4 col-md-5">
+                <div class="row">
+                    <h4 class="fw-bold">Department</h4>
+                    <ul class="fs-5 rounded-0 list-unstyled text-start d-flex flex-column gap-3">
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh Meat</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Vegetables</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fruit & Nut
+                                Gifts</a></li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fruit
+                                Barries</a></li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Ocean Foods</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Butter &
+                                Eggs</a></li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fast Food</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh Onion</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Papaya
+                                Crisps</a></li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Oatmeal</a>
+                        </li>
+                        <li class="fs-6"><a href="#" class="text-decoration-none text-black">Fresh
+                                Bananas</a></li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <h4 class="fw-bold">Price</h4>
+                    <input type="range" name="price" class="form-range" id="range" style="stroke:#d62d2d;">
+                </div>
+
+                <div class="row">
+                    <h4 class="fw-bold">Colors</h4>
+                    <div class="row d-flex justify-content-start flex-row">
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bx-circle'></i>
+                                White
+                            </span>
+                        </div>
+
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bxs-circle' style="color: #e9a625;"></i>
+                                Gray
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start flex-row">
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bxs-circle' style="color: #d62d2d;"></i>
+                                Red
+                            </span>
+                        </div>
+
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bxs-circle' style="color: #000;"></i>
+                                Gray
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start flex-row">
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bxs-circle' style="color: #249bc8"></i>
+                                White
+                            </span>
+                        </div>
+                        <div class="col-6">
+                            <span>
+                                <i class='bx bxs-circle' style="color: #3cc032;"></i>
+                                Gray
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h4 class="fw-bold mt-5">Popular Size</h4>
+                    <div class="card border-0 position-relative hoverDiv">
+                        <div class="card-body p-0">
+                            <button class="rounded-0 border-0 p-2 "
+                                style="background: #f5f5f5;color: #837a85;">Large</button>
+                            <button class="rounded-0 border-0 p-2"
+                                style="background: #f5f5f5;color: #837a85;">Medium</button>
+                        </div>
+                        <div class="card-body p-0 mt-2">
+                            <button class="rounded-0 border-0 p-2 "
+                                style="background: #f5f5f5;color: #837a85;">Small</button>
+                            <button class="rounded-0 border-0 p-2" style="background: #f5f5f5;color: #837a85;">Tiny
+                                Food</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-7">
+                <hr>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4">
+                        <p>Sort By <span class="fw-bold">Default</span></p>
+                    </div>
+                    <div class="col-4">
+                        <p><span class="fw-bold">16</span> Products found</p>
+                    </div>
+                    <div class="col-4">
+                        <i class='bx bxs-grid-alt fs-2' style="color: #bababa;cursor: pointer;"></i>
+                        <i class='bx bx-list-ul fs-2' style="color: #bababa;cursor: pointer;"></i>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit1.png">
+                                <p class="card-header text-center bg-white border-0 z-1">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div
+                                class="position-absolute justify-content-center align-items-center w-100 gap-3 hoverEffect">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body border-0">
+                                <img class="card-img-top" src="../images/fruit2.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3 hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit3.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit4.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit5.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body border-0">
+                                <img class="card-img-top" src="../images/fruit6.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/item1.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit7.png">
+                                <p class="card-header text-center bg-white border-0 z-1">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0 z-1">$30.00</p>
+                            </div>
+                            <div
+                                class="position-absolute justify-content-center align-items-center w-100 gap-3 hoverEffect">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit1.png">
+                                <p class="card-header text-center bg-white border-0 z-1">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0 z-1">$30.00</p>
+                            </div>
+                            <div
+                                class="position-absolute justify-content-center align-items-center w-100 gap-3 hoverEffect">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit3.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit5.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 mb-sm-0">
+                        <div class="card border-0 position-relative hoverDiv">
+                            <div class="card-body">
+                                <img class="card-img-top" src="../images/fruit6.png">
+                                <p class="card-header text-center bg-white border-0">Crab Pool Security</p>
+                                <p class="card-header fw-bold text-center bg-white border-0">$30.00</p>
+                            </div>
+                            <div class="position-absolute justify-content-center align-items-center w-100 gap-3  hoverEffect"
+                                style="bottom: 110px;">
+                                <i class='bx bxs-heart r-icon fs-5 border rounded-circle  p-2'></i>
+                                <i class='bx bxs-cart r-icon fs-5 border rounded-circle p-2'></i>
+                                <i class='bx bx-repost r-icon fs-5 border rounded-circle p-2'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination d-flex gap-4">
+                            <li class="page-item d-none"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a></li>
+                            <li class="page-item d-none">Next</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section - 3 End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid pt-lg-5 ps-lg-0 p-sm-0 pb-sm-0 pb-0 pt-5 pt-md-5" style="background-color: #f3f6fa;">
+        <div class="row mb-5 ms-sm-1 ms-lg-2 ms-xl-5 ms-md-0">
+            <div class="col-lg-3 col-md-6">
+                <img src="../images/logo.png" alt="logo">
+                <p>Address: 60-49 Road 11378 New York</p>
+                <p>Phone: +65 11.188.888</p>
+                <p>Email: hello@colorlib.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="row">
+                    <p class="fw-bold h6">Useful Links</p>
+                    <div class="col-6">
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">About
+                                Us</a></p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">About
+                                Our
+                                Shop</a></p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Secure
+                                Shopping</a></p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Delivery
+                                information</a></p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Privacy
+                                Policy</a></p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Our
+                                Sitemap</a>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Who We
+                                Are</a>
+                        </p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Our
+                                Services</a>
+                        </p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Projects</a>
+                        </p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Contact</a>
+                        </p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Innovation</a>
+                        </p>
+                        <p style="font-size: 14px;"><a href="#" class="text-decoration-none text-black">Testimonials</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md col-sm-12">
+                <p class="fw-bold h6">Join Our Newsletter Now</p>
+                <p style="font-size: 14px;">Get E-mail updates about our latest shop and special offers.</p>
+                <div class="d-flex flex-row">
+                    <input type="text" name="field" class="input-group border-0 p-3" placeholder="Enter Your Email"
+                        style="outline: none;">
+                    <button class="btn mt-0 me-0 rounded-0 text-white" style="background: #7fae42">SUBSCRIBE</button>
+                </div>
+                <div class="d-flex justify-content-start align-items-center mt-4 gap-2">
+                    <i class='bx bxl-facebook fs-3 border rounded-circle p-2 b-icon'></i>
+                    <i class='bx bxl-instagram fs-3 border rounded-circle p-2 b-icon'></i>
+                    <i class='bx bxl-twitter fs-3 border rounded-circle p-2 b-icon'></i>
+                    <i class='bx bxl-pinterest-alt fs-3 border rounded-circle p-2 b-icon'></i>
+                </div>
+            </div>
+        </div>
+        <div class="row border-2 border-top ms-lg-5 ms-sm-0 ms-md-0">
+            <div class="col-lg-6 p-2 col-md-12 col-sm-12">
+                <p class="text-center" style="color: #7d7974;font-size: 14px;">Copyright ©2023 All rights
+                    reserved |
+                    This template is made with <i class='bx bxs-heart'></i> by <a class="text-decoration-none"
+                        href="#">Colorlib</a></p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                <img src="../images/payment-item.png" alt="payments">
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

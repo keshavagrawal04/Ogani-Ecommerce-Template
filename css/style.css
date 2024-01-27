@@ -1,0 +1,50 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.r-icon {
+    background-color: white;
+}
+
+.r-icon:hover {
+    animation: rotate 0.5s;
+    color: white;
+    cursor: pointer;
+    background-color: #7fad39;
+}
+
+@keyframes scrollUp {
+    from {
+        bottom: 80px;
+    }
+
+    to {
+        bottom: 110px;
+    }
+}
+
+.hoverEffect {
+    display: none;
+}
+
+.hoverDiv:hover .hoverEffect {
+    display: flex;
+    width: 75%;
+    animation: scrollUp 0.2s linear forwards;
+}
+
+.b-icon:hover {
+    color: white;
+    background-color: #7fad39;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
